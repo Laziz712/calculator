@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 250px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+body {
+    background-color: brown;
+}
+
+#natija {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    transition: all 0.5 ease;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #aaa;
+}
+
+.c {
+    background-color: red;
+    color: white;
+}
+
+.raqam {
+    background-color: #fff;
+    color: #333;
+}
+
+.nuqta {
+    background-color: #fff;
+    color: #333;
+}
+
+.teng {
+    background-color: green;
+    grid-row: span 3;
+    color: white;
+}
+
+.operator {
+    background-color: rgb(53, 157, 255);
+    color: white;
+}
